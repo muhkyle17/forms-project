@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:wght@300&family=Questrial&display=swap');
+
+// font-family: 'Questrial', sans-serif;
+
+body {
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.7;
+  background-color: $color-primary;
+}
+
+.description {
+  & h1 {
+    font-size: 4.5rem;
+  }
+
+  & p {
+    font-size: 1.5rem;
+  }
+}

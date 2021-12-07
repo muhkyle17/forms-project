@@ -1,0 +1,25 @@
+.description {
+  margin: 50px 30px 0px 90px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 65vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__faq {
+    margin-top: 5rem;
+  }
+
+  &__email {
+    margin-top: 0.6rem;
+  }
+
+  &__img {
+    max-height: 200px;
+    width: auto;
+    display: block;
+  }
+}
