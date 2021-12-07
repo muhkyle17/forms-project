@@ -31,11 +31,12 @@ html {
 }
 
 .description {
-  margin: 50px 30px 0px 90px;
+  margin-right: 3rem;
   padding: 10px 20px;
   border: 2px solid black;
-  border-radius: 10px;
-  height: 65vh;
+  border-radius: 1rem;
+  height: 80vh;
+  min-width: 30%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -59,6 +60,46 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: 100vh;
+}
+
+.forms {
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 1rem;
+  height: 80vh;
+  min-width: 30%;
+}
+.forms p:not(:first-child) {
+  padding-top: 1.5rem;
+}
+.forms__container p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.forms p input {
+  font-size: 15px;
+  background-color: #e6e6e6;
+  border: 2px solid #005745;
+  border-radius: 5px;
+  padding: 5px 3px 5px 10px;
+  margin-top: 6px;
+}
+.forms p input:focus, .forms p input:hover {
+  background-color: #fff;
+  border: 2px solid #005745;
+}
+.forms__submit {
+  margin-top: 1.8rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #005745;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.forms__submit:hover {
+  background-color: #0c7560;
 }
 
 /*# sourceMappingURL=styles.css.map */
